@@ -27,7 +27,7 @@ for key,value in  pairs(stage_table) do
 		local JSON = json.parse(response.content)
 		if response.content == "[]" then break end
 		for key,value in pairs(JSON) do
-      local date_added = JSON[key].deal.added_on
+      		local date_added = JSON[key].deal.added_on
 			if tonumber(string.sub(JSON[key].deal.added_at,12,13)) < 5 then
 				date_added = string.sub(date_added,1,9) .. string.sub(date_added,10,10) - 1
 			end	
