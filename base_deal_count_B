@@ -30,7 +30,7 @@ for key,value in  pairs(stage_table) do
 		local JSON = json.parse(response.content)
 		if response.content == "[]" then break end
 		for key,value in pairs(JSON) do
-				pipeline_deal_count = pipeline_deal_count + 1
+			pipeline_deal_count = pipeline_deal_count + 1
 		end
 	end	
 end
