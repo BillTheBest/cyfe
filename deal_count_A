@@ -18,7 +18,7 @@ for key,value in  pairs(stage_table) do
 			stage = stage_key	
 			},
 		headers = {
-			['X-Pipejump-Auth']= 'HXGuj0OknFkr3agpK85b',
+			['X-Pipejump-Auth']= 'YOUR_KEY',
 			}
 		}
 		local JSON = json.parse(response.content)
