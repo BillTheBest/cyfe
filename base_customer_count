@@ -1,3 +1,5 @@
+-- Counts total number of customers including startup customers and full customers
+
 -- Create Variables
 
 local full_customer_deal_count = 0
