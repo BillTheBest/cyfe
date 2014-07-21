@@ -1,5 +1,4 @@
---First part of script to sum customer contract value
-
+--First part of script to count opportunities (Base calls them Deals) in sales pipeline
 
 --Create Pagination Table
 
