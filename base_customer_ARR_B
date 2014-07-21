@@ -1,3 +1,5 @@
+--Second part of script to sum customer contract value
+
 --Create Pagination Table
 
 stage_table = {"quote", "custom1","custom2","custom3","closure"}
